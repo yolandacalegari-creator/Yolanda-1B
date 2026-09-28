@@ -14,3 +14,6 @@ const botoes = document.querySelectorAll("button");
         }
       }
       })
+const batnTemaEscuro = document.querySelector(".btn-tema-escuro");
+
+btnTemaEscuro.addEventListener("click", mudaTema);
